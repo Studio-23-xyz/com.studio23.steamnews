@@ -1,0 +1,182 @@
+{
+  "api/FancyTextRendering.Demo.DemoRenderUpdater.html": {
+    "href": "api/FancyTextRendering.Demo.DemoRenderUpdater.html",
+    "title": "Class DemoRenderUpdater | |",
+    "keywords": "Class DemoRenderUpdater Namespace FancyTextRendering.Demo public class DemoRenderUpdater : MonoBehaviour Inheritance object DemoRenderUpdater"
+  },
+  "api/FancyTextRendering.Demo.html": {
+    "href": "api/FancyTextRendering.Demo.html",
+    "title": "Namespace FancyTextRendering.Demo | |",
+    "keywords": "Namespace FancyTextRendering.Demo Classes DemoRenderUpdater"
+  },
+  "api/LogicUI.FancyTextRendering.ICustomTextPreProcessor.html": {
+    "href": "api/LogicUI.FancyTextRendering.ICustomTextPreProcessor.html",
+    "title": "Interface ICustomTextPreProcessor | |",
+    "keywords": "Interface ICustomTextPreProcessor Namespace LogicUI.FancyTextRendering Allows efficient pre-processing of text before the main markdown processing is applied. Use with MarkdownToRichText(string, MarkdownRenderingSettings, params ICustomTextPreProcessor[]) or public interface ICustomTextPreProcessor Methods ProcessLine(StringBuilder) void ProcessLine(StringBuilder lineBuilder) Parameters lineBuilder StringBuilder"
+  },
+  "api/LogicUI.FancyTextRendering.LoadMarkdownFromResources.html": {
+    "href": "api/LogicUI.FancyTextRendering.LoadMarkdownFromResources.html",
+    "title": "Class LoadMarkdownFromResources | |",
+    "keywords": "Class LoadMarkdownFromResources Namespace LogicUI.FancyTextRendering public class LoadMarkdownFromResources : MonoBehaviour Inheritance object LoadMarkdownFromResources"
+  },
+  "api/LogicUI.FancyTextRendering.Markdown.html": {
+    "href": "api/LogicUI.FancyTextRendering.Markdown.html",
+    "title": "Class Markdown | |",
+    "keywords": "Class Markdown Namespace LogicUI.FancyTextRendering Converts markdown into TMP rich text tags. Very unfinished and experimental. Not even close to being a complete markdown renderer. public static class Markdown Inheritance object Markdown Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods MarkdownToRichText(string) public static string MarkdownToRichText(string source) Parameters source string Returns string MarkdownToRichText(string, MarkdownRenderingSettings, params ICustomTextPreProcessor[]) public static string MarkdownToRichText(string source, MarkdownRenderingSettings settings, params ICustomTextPreProcessor[] customTextPreProcessors) Parameters source string settings MarkdownRenderingSettings customTextPreProcessors ICustomTextPreProcessor[] Returns string RenderToTextMesh(string, TMP_Text) public static void RenderToTextMesh(string markdownSource, TMP_Text textMesh) Parameters markdownSource string textMesh TMP_Text RenderToTextMesh(string, TMP_Text, MarkdownRenderingSettings, params ICustomTextPreProcessor[]) public static void RenderToTextMesh(string markdownSource, TMP_Text textMesh, MarkdownRenderingSettings settings, params ICustomTextPreProcessor[] customTextPreProcessors) Parameters markdownSource string textMesh TMP_Text settings MarkdownRenderingSettings customTextPreProcessors ICustomTextPreProcessor[] UpdateTextMesh(TMP_Text) public static void UpdateTextMesh(TMP_Text textMesh) Parameters textMesh TMP_Text"
+  },
+  "api/LogicUI.FancyTextRendering.MarkdownRenderer.html": {
+    "href": "api/LogicUI.FancyTextRendering.MarkdownRenderer.html",
+    "title": "Class MarkdownRenderer | |",
+    "keywords": "Class MarkdownRenderer Namespace LogicUI.FancyTextRendering public class MarkdownRenderer : MonoBehaviour Inheritance object MarkdownRenderer Fields RenderSettings public MarkdownRenderingSettings RenderSettings Field Value MarkdownRenderingSettings Properties Source public string Source { get; set; } Property Value string TextMesh public TMP_Text TextMesh { get; } Property Value TMP_Text"
+  },
+  "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.BoldSettings.html": {
+    "href": "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.BoldSettings.html",
+    "title": "Class MarkdownRenderingSettings.BoldSettings | |",
+    "keywords": "Class MarkdownRenderingSettings.BoldSettings Namespace LogicUI.FancyTextRendering [Serializable] public class MarkdownRenderingSettings.BoldSettings Inheritance object MarkdownRenderingSettings.BoldSettings Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields RenderBold public bool RenderBold Field Value bool"
+  },
+  "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.HeaderSettings.HeaderData.HeaderCase.html": {
+    "href": "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.HeaderSettings.HeaderData.HeaderCase.html",
+    "title": "Enum MarkdownRenderingSettings.HeaderSettings.HeaderData.HeaderCase | |",
+    "keywords": "Enum MarkdownRenderingSettings.HeaderSettings.HeaderData.HeaderCase Namespace LogicUI.FancyTextRendering public enum MarkdownRenderingSettings.HeaderSettings.HeaderData.HeaderCase Fields Lowercase = 3 None = 0 Smallcaps = 2 Uppercase = 1"
+  },
+  "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.HeaderSettings.HeaderData.html": {
+    "href": "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.HeaderSettings.HeaderData.html",
+    "title": "Class MarkdownRenderingSettings.HeaderSettings.HeaderData | |",
+    "keywords": "Class MarkdownRenderingSettings.HeaderSettings.HeaderData Namespace LogicUI.FancyTextRendering [Serializable] public class MarkdownRenderingSettings.HeaderSettings.HeaderData Inheritance object MarkdownRenderingSettings.HeaderSettings.HeaderData Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors HeaderData() public HeaderData() HeaderData(float, bool, bool, float) public HeaderData(float size, bool bold, bool underline, float verticalSpacing = 0) Parameters size float bold bool underline bool verticalSpacing float Fields Bold public bool Bold Field Value bool Case public MarkdownRenderingSettings.HeaderSettings.HeaderData.HeaderCase Case Field Value MarkdownRenderingSettings.HeaderSettings.HeaderData.HeaderCase Size public float Size Field Value float Underline public bool Underline Field Value bool VerticalSpacing public float VerticalSpacing Field Value float"
+  },
+  "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.HeaderSettings.html": {
+    "href": "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.HeaderSettings.html",
+    "title": "Class MarkdownRenderingSettings.HeaderSettings | |",
+    "keywords": "Class MarkdownRenderingSettings.HeaderSettings Namespace LogicUI.FancyTextRendering [Serializable] public class MarkdownRenderingSettings.HeaderSettings Inheritance object MarkdownRenderingSettings.HeaderSettings Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields Levels public MarkdownRenderingSettings.HeaderSettings.HeaderData[] Levels Field Value HeaderData[] RenderLineHeaders public bool RenderLineHeaders Field Value bool RenderPoundSignHeaders public bool RenderPoundSignHeaders Field Value bool"
+  },
+  "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.ItalicSettings.html": {
+    "href": "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.ItalicSettings.html",
+    "title": "Class MarkdownRenderingSettings.ItalicSettings | |",
+    "keywords": "Class MarkdownRenderingSettings.ItalicSettings Namespace LogicUI.FancyTextRendering [Serializable] public class MarkdownRenderingSettings.ItalicSettings Inheritance object MarkdownRenderingSettings.ItalicSettings Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields RenderItalics public bool RenderItalics Field Value bool"
+  },
+  "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.LinkSettings.html": {
+    "href": "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.LinkSettings.html",
+    "title": "Class MarkdownRenderingSettings.LinkSettings | |",
+    "keywords": "Class MarkdownRenderingSettings.LinkSettings Namespace LogicUI.FancyTextRendering [Serializable] public class MarkdownRenderingSettings.LinkSettings Inheritance object MarkdownRenderingSettings.LinkSettings Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields LinkColor public Color LinkColor Field Value Color RenderAutoLinks public bool RenderAutoLinks Field Value bool RenderLinks public bool RenderLinks Field Value bool"
+  },
+  "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.ListSettings.html": {
+    "href": "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.ListSettings.html",
+    "title": "Class MarkdownRenderingSettings.ListSettings | |",
+    "keywords": "Class MarkdownRenderingSettings.ListSettings Namespace LogicUI.FancyTextRendering [Serializable] public class MarkdownRenderingSettings.ListSettings Inheritance object MarkdownRenderingSettings.ListSettings Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields BulletOffsetPixels public float BulletOffsetPixels Field Value float ContentSeparationPixels public float ContentSeparationPixels Field Value float OrderedListNumberSuffix public string OrderedListNumberSuffix Field Value string RenderOrderedLists public bool RenderOrderedLists Field Value bool RenderUnorderedLists public bool RenderUnorderedLists Field Value bool UnorderedListBullet public string UnorderedListBullet Field Value string VerticalOffset public float VerticalOffset Field Value float"
+  },
+  "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.MonospaceSettings.html": {
+    "href": "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.MonospaceSettings.html",
+    "title": "Class MarkdownRenderingSettings.MonospaceSettings | |",
+    "keywords": "Class MarkdownRenderingSettings.MonospaceSettings Namespace LogicUI.FancyTextRendering [Serializable] public class MarkdownRenderingSettings.MonospaceSettings Inheritance object MarkdownRenderingSettings.MonospaceSettings Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields AddSeparationSpacing public bool AddSeparationSpacing Field Value bool CharacterSpacing public float CharacterSpacing Field Value float DrawOverlay public bool DrawOverlay Field Value bool FontAssetPathRelativeToResources public string FontAssetPathRelativeToResources Field Value string ManuallySetCharacterSpacing public bool ManuallySetCharacterSpacing Field Value bool OverlayColor public Color OverlayColor Field Value Color OverlayPaddingPixels public float OverlayPaddingPixels Field Value float RenderMonospace public bool RenderMonospace Field Value bool SeparationSpacing public float SeparationSpacing Field Value float UseCustomFont public bool UseCustomFont Field Value bool"
+  },
+  "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.StrikethroughSettings.html": {
+    "href": "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.StrikethroughSettings.html",
+    "title": "Class MarkdownRenderingSettings.StrikethroughSettings | |",
+    "keywords": "Class MarkdownRenderingSettings.StrikethroughSettings Namespace LogicUI.FancyTextRendering [Serializable] public class MarkdownRenderingSettings.StrikethroughSettings Inheritance object MarkdownRenderingSettings.StrikethroughSettings Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields RenderStrikethrough public bool RenderStrikethrough Field Value bool"
+  },
+  "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.SuperscriptSettings.html": {
+    "href": "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.SuperscriptSettings.html",
+    "title": "Class MarkdownRenderingSettings.SuperscriptSettings | |",
+    "keywords": "Class MarkdownRenderingSettings.SuperscriptSettings Namespace LogicUI.FancyTextRendering [Serializable] public class MarkdownRenderingSettings.SuperscriptSettings Inheritance object MarkdownRenderingSettings.SuperscriptSettings Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields RenderChainSuperscript public bool RenderChainSuperscript Field Value bool RenderSuperscript public bool RenderSuperscript Field Value bool"
+  },
+  "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.html": {
+    "href": "api/LogicUI.FancyTextRendering.MarkdownRenderingSettings.html",
+    "title": "Class MarkdownRenderingSettings | |",
+    "keywords": "Class MarkdownRenderingSettings Namespace LogicUI.FancyTextRendering [Serializable] public class MarkdownRenderingSettings Inheritance object MarkdownRenderingSettings Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields Bold public MarkdownRenderingSettings.BoldSettings Bold Field Value MarkdownRenderingSettings.BoldSettings Headers public MarkdownRenderingSettings.HeaderSettings Headers Field Value MarkdownRenderingSettings.HeaderSettings Italics public MarkdownRenderingSettings.ItalicSettings Italics Field Value MarkdownRenderingSettings.ItalicSettings Links public MarkdownRenderingSettings.LinkSettings Links Field Value MarkdownRenderingSettings.LinkSettings Lists public MarkdownRenderingSettings.ListSettings Lists Field Value MarkdownRenderingSettings.ListSettings Monospace public MarkdownRenderingSettings.MonospaceSettings Monospace Field Value MarkdownRenderingSettings.MonospaceSettings Strikethrough public MarkdownRenderingSettings.StrikethroughSettings Strikethrough Field Value MarkdownRenderingSettings.StrikethroughSettings Superscript public MarkdownRenderingSettings.SuperscriptSettings Superscript Field Value MarkdownRenderingSettings.SuperscriptSettings Properties Default public static MarkdownRenderingSettings Default { get; } Property Value MarkdownRenderingSettings"
+  },
+  "api/LogicUI.FancyTextRendering.SimpleLinkBehavior.html": {
+    "href": "api/LogicUI.FancyTextRendering.SimpleLinkBehavior.html",
+    "title": "Class SimpleLinkBehavior | |",
+    "keywords": "Class SimpleLinkBehavior Namespace LogicUI.FancyTextRendering Allows links in TextMeshPro text objects to be clicked on, and gives them custom colors when they are hovered or clicked. public class SimpleLinkBehavior : MonoBehaviour Inheritance object SimpleLinkBehavior Methods SetCustomLink(string, Action) Sets some code to be run when a link is clicked on. If a link doesn't have a custom action set, we will use Application.OpenURL(string) on it. public void SetCustomLink(string linkID, Action linkAction) Parameters linkID string linkAction Action"
+  },
+  "api/LogicUI.FancyTextRendering.TextLinkHelper.html": {
+    "href": "api/LogicUI.FancyTextRendering.TextLinkHelper.html",
+    "title": "Class TextLinkHelper | |",
+    "keywords": "Class TextLinkHelper Namespace LogicUI.FancyTextRendering Allows links in TextMeshPro text objects to be clicked on, and gives them custom colors when they are hovered or clicked. public class TextLinkHelper : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler Inheritance object TextLinkHelper Implements IPointerClickHandler IPointerDownHandler IPointerUpHandler IPointerEnterHandler IPointerExitHandler Properties Text public TMP_Text Text { get; } Property Value TMP_Text Methods LinkDataUpdated() public void LinkDataUpdated() SetColors(Color32, Color32, Color32) public void SetColors(Color32 linkNormalColor, Color32 linkHoveredColor, Color32 linkClickColor) Parameters linkNormalColor Color32 linkHoveredColor Color32 linkClickColor Color32 Events OnLinkClicked public event Action<string> OnLinkClicked Event Type Action<string> OnLinkHoverEnded public event Action OnLinkHoverEnded Event Type Action OnLinkHovered public event Action<string> OnLinkHovered Event Type Action<string>"
+  },
+  "api/LogicUI.FancyTextRendering.html": {
+    "href": "api/LogicUI.FancyTextRendering.html",
+    "title": "Namespace LogicUI.FancyTextRendering | |",
+    "keywords": "Namespace LogicUI.FancyTextRendering Classes LoadMarkdownFromResources Markdown Converts markdown into TMP rich text tags. Very unfinished and experimental. Not even close to being a complete markdown renderer. MarkdownRenderer MarkdownRenderingSettings MarkdownRenderingSettings.BoldSettings MarkdownRenderingSettings.HeaderSettings MarkdownRenderingSettings.HeaderSettings.HeaderData MarkdownRenderingSettings.ItalicSettings MarkdownRenderingSettings.LinkSettings MarkdownRenderingSettings.ListSettings MarkdownRenderingSettings.MonospaceSettings MarkdownRenderingSettings.StrikethroughSettings MarkdownRenderingSettings.SuperscriptSettings SimpleLinkBehavior Allows links in TextMeshPro text objects to be clicked on, and gives them custom colors when they are hovered or clicked. TextLinkHelper Allows links in TextMeshPro text objects to be clicked on, and gives them custom colors when they are hovered or clicked. Interfaces ICustomTextPreProcessor Allows efficient pre-processing of text before the main markdown processing is applied. Use with MarkdownToRichText(string, MarkdownRenderingSettings, params ICustomTextPreProcessor[]) or Enums MarkdownRenderingSettings.HeaderSettings.HeaderData.HeaderCase"
+  },
+  "api/Studio23.SteamNews.Core.SteamNewsManager.html": {
+    "href": "api/Studio23.SteamNews.Core.SteamNewsManager.html",
+    "title": "Class SteamNewsManager | |",
+    "keywords": "Class SteamNewsManager Namespace Studio23.SteamNews.Core public class SteamNewsManager : MonoBehaviour Inheritance object SteamNewsManager Methods GetNews() Get the Serialized News Data public UniTask<SteamNewsData> GetNews() Returns UniTask<SteamNewsData> GetRawNewsString() Use this in case you want to get the raw string for whatever reason public UniTask<string> GetRawNewsString() Returns UniTask<string>"
+  },
+  "api/Studio23.SteamNews.Core.html": {
+    "href": "api/Studio23.SteamNews.Core.html",
+    "title": "Namespace Studio23.SteamNews.Core | |",
+    "keywords": "Namespace Studio23.SteamNews.Core Classes SteamNewsManager"
+  },
+  "api/Studio23.SteamNews.Data.Appnews.html": {
+    "href": "api/Studio23.SteamNews.Data.Appnews.html",
+    "title": "Class Appnews | |",
+    "keywords": "Class Appnews Namespace Studio23.SteamNews.Data [Serializable] public class Appnews Inheritance object Appnews Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields Appid public int Appid Field Value int Count public int Count Field Value int Newsitems public List<Newsitem> Newsitems Field Value List<Newsitem>"
+  },
+  "api/Studio23.SteamNews.Data.Newsitem.html": {
+    "href": "api/Studio23.SteamNews.Data.Newsitem.html",
+    "title": "Class Newsitem | |",
+    "keywords": "Class Newsitem Namespace Studio23.SteamNews.Data [Serializable] public class Newsitem Inheritance object Newsitem Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields Appid public int Appid Field Value int Author public string Author Field Value string Contents public string Contents Field Value string Date public int Date Field Value int FeedType public int FeedType Field Value int Feedlabel public string Feedlabel Field Value string Feedname public string Feedname Field Value string Gid public string Gid Field Value string IsExternalUrl public bool IsExternalUrl Field Value bool Title public string Title Field Value string Url public string Url Field Value string"
+  },
+  "api/Studio23.SteamNews.Data.SteamNewsAPIConfig.html": {
+    "href": "api/Studio23.SteamNews.Data.SteamNewsAPIConfig.html",
+    "title": "Class SteamNewsAPIConfig | |",
+    "keywords": "Class SteamNewsAPIConfig Namespace Studio23.SteamNews.Data public class SteamNewsAPIConfig : ScriptableObject Inheritance object SteamNewsAPIConfig Fields AppId public uint AppId Field Value uint Count public uint Count Field Value uint Feeds public List<string> Feeds Field Value List<string>"
+  },
+  "api/Studio23.SteamNews.Data.SteamNewsData.html": {
+    "href": "api/Studio23.SteamNews.Data.SteamNewsData.html",
+    "title": "Class SteamNewsData | |",
+    "keywords": "Class SteamNewsData Namespace Studio23.SteamNews.Data [Serializable] public class SteamNewsData Inheritance object SteamNewsData Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields Appnews public Appnews Appnews Field Value Appnews"
+  },
+  "api/Studio23.SteamNews.Data.html": {
+    "href": "api/Studio23.SteamNews.Data.html",
+    "title": "Namespace Studio23.SteamNews.Data | |",
+    "keywords": "Namespace Studio23.SteamNews.Data Classes Appnews Newsitem SteamNewsAPIConfig SteamNewsData"
+  },
+  "api/Studio23.SteamNews.Demo.SteamNewsUI.html": {
+    "href": "api/Studio23.SteamNews.Demo.SteamNewsUI.html",
+    "title": "Class SteamNewsUI | |",
+    "keywords": "Class SteamNewsUI Namespace Studio23.SteamNews.Demo public class SteamNewsUI : MonoBehaviour Inheritance object SteamNewsUI Fields ContentParent public GameObject ContentParent Field Value GameObject ContentPrefab public GameObject ContentPrefab Field Value GameObject SteamNews public SteamNewsData SteamNews Field Value SteamNewsData Methods Start() public void Start()"
+  },
+  "api/Studio23.SteamNews.Demo.html": {
+    "href": "api/Studio23.SteamNews.Demo.html",
+    "title": "Namespace Studio23.SteamNews.Demo | |",
+    "keywords": "Namespace Studio23.SteamNews.Demo Classes SteamNewsUI"
+  },
+  "api/Studio23.SteamNews.Utilities.BBCodeConverter.html": {
+    "href": "api/Studio23.SteamNews.Utilities.BBCodeConverter.html",
+    "title": "Class BBCodeConverter | |",
+    "keywords": "Class BBCodeConverter Namespace Studio23.SteamNews.Utilities public static class BBCodeConverter Inheritance object BBCodeConverter Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods BBToRichText(string) public static string BBToRichText(this string input) Parameters input string Returns string"
+  },
+  "api/Studio23.SteamNews.Utilities.html": {
+    "href": "api/Studio23.SteamNews.Utilities.html",
+    "title": "Namespace Studio23.SteamNews.Utilities | |",
+    "keywords": "Namespace Studio23.SteamNews.Utilities Classes BBCodeConverter"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "| |",
+    "keywords": "This is the documentation for the Scripting APIs of this package."
+  },
+  "changelog/CHANGELOG.html": {
+    "href": "changelog/CHANGELOG.html",
+    "title": "Changelog | |",
+    "keywords": "Changelog [v0.0.1] - 2024-04-03 Update Initial Release"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| |",
+    "keywords": "This page redirects to the manual."
+  },
+  "license/LICENSE.html": {
+    "href": "license/LICENSE.html",
+    "title": "| |",
+    "keywords": "MIT License Copyright (c) 2023 Studio-23 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "Steam News Utility | |",
+    "keywords": "Steam News Utility Fetch News from public steam apps using app_id Table of Contents Installation Usage Getting Started Extensions Installation Install via Git URL You can also use the \"Install from Git URL\" option from Unity Package Manager to install the package. https://github.com/Studio-23-xyz/com.studio23.steamnews.git#upm Usage Getting Started Check the Sample"
+  }
+}
