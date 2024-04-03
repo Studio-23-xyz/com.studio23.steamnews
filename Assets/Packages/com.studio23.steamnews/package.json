@@ -1,0 +1,40 @@
+{
+  "name": "com.studio23.steamnews",
+  "version": "0.0.1",
+  "displayName": "Steam News For Unity",
+  "description": "A Unity Package to Get And Render Content for Steam Apps Public News",
+  "unity": "2021.3",
+  "unityRelease": "10f1",
+  "documentationUrl": "https://studio-23-xyz.github.io/com.studio23.steamnews/manual/",
+  "changelogUrl": "https://studio-23-xyz.github.io/com.studio23.steamnews/changelog/CHANGELOG.html",
+  "licensesUrl": "https://studio-23-xyz.github.io/com.studio23.steamnews/license/LICENSE.html",
+  "scopedRegistries": [
+    {
+      "name": "Studio 23",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.studio23.ss2"
+      ]
+    }
+  ],
+  "dependencies": {
+    "com.cysharp.unitask": "2.4.1"
+  },
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "A small sample to demonstrate the abilities of the package.",
+      "path": "Samples~/Demo"
+    }
+  ],
+  "keywords": [
+    "SteamWorks",
+    "News",
+    "SteamApps"
+  ],
+  "author": {
+    "name": "Studio 23",
+    "email": "contact@studio-23.xyz",
+    "url": "https://studio-23.xyz"
+  }
+}
